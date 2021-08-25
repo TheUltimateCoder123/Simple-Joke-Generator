@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+body{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width:80%;
+    text-align: center;
+    border:1px solid red;
+    background: linear-gradient(#e9bcbc, #9ea1c9);
+    padding: 2rem;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    color:rgb(255, 255, 255);
+    height:100%;
+
+}
+h1{
+margin-bottom: 1.5rem;
+color:rgb(255, 255, 255)
+
+}
+#textfield{
+  padding:1rem;
+
+}
+#btn{
+    color:#ff0000;
+    padding:0.9rem;
+    border-radius: 5px;
+    
+    background-color: #f4f4f4;
+    border:1px solid red;
+    
+}
